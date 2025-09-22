@@ -1,0 +1,17 @@
+# Unreal Engine temporary/build folders
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+
+# Windows/Visual Studio files
+*.pdb
+*.obj
+*.exe
+*.log
+*.ipch
+
+# Optional: exclude some large asset types if not needed
+# *.uasset
+# *.umap
