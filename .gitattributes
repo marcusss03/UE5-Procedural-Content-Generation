@@ -2,3 +2,7 @@
 *.umap filter=lfs diff=lfs merge=lfs -text
 *.png filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
+
+# Treat Unreal Engine Blueprints as C#
+*.uasset linguist-language=C#
+*.umap linguist-language=C#
