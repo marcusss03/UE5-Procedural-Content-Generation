@@ -3,12 +3,12 @@
 *.png filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
 
-# Treat text-based C++ files correctly
 *.cpp linguist-language=C++
 *.cxx linguist-language=C++
 *.cc linguist-language=C++
 *.h linguist-language=C++
 *.hpp linguist-language=C++
+
 
 # Mark binary assets and cache folders as vendored (ignored)
 *.uasset linguist-vendored
@@ -18,3 +18,4 @@ DerivedDataCache/** linguist-vendored
 Intermediate/** linguist-vendored
 Saved/** linguist-vendored
 .vs/** linguist-vendored
+
